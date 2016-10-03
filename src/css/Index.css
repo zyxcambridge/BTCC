@@ -1,0 +1,104 @@
+input, textarea, button, .modal-dialog {outline: none; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  background-color: #ECEFF1;
+}
+
+#root {
+  margin: 10px 20px 10px 20px;
+  height: 100%;
+  background-color: #fff;
+}
+
+/* TODO: 使用更好的 CSS 管理方法 */
+/* /src/components/PageHeader */
+
+.pageHeader {
+  height: 44px;
+}
+
+#headerbar {
+  background-color: #26C6DA;
+  vertical-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+#headerbar > h5 {
+  padding-top: 13px;
+  padding-left: 10px;
+  color: #fff;
+}
+
+.pageHeader img {
+  height: 80px;
+  width: 80px;
+}
+
+#headerContent {
+  text-align: center;
+}
+
+#headerContent img {
+  margin-top: 30px;
+}
+
+#headerContent p {
+  margin-top: 15px;
+}
+
+/* TODO: 使用更好的 CSS 管理方法 */
+/* /src/components/FRTabs */
+
+.visibilityTabs {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+/* TODO: 使用更好的 CSS 管理方法 */
+/* /src/components/FeatureRequests */
+.featureRequests {
+  margin-top: 10px;
+  margin-left: 50px;
+}
+
+/* TODO: 使用更好的 CSS 管理方法 */
+/* /src/containers/addFeatureRequest/AddFeatureRequestModal */
+#openModal {
+  width: 140px;
+  height: 38px;
+  margin-top: 180px;
+  background-color: #26C6DA;
+  border: none;
+  color: #fff;
+}
+
+/* TODO: 使用更好的 CSS 管理方法 */
+/* /src/containers/addFeatureRequest/NewFeatureRequestForm */
+.newFeatureRequestForm input{
+  width: 100%;
+  height: 36px;
+  margin-bottom: 15px;
+}
+
+.newFeatureRequestForm textarea {
+  width: 100%;
+  height: 100px;
+  margin-bottom: 15px;
+}
+
+/* TODO: 使用更好的 CSS 管理方法 */
+/* /src/components/SingleFeatureRequest */
+.featureRequestVoteInfo {
+  display: inline-block;
+}
+
+#featureRequestVoterInfo {
+  margin-left: 10px;
+}
+
+.featureRequestVoteBtn {
+  height: 22px;
+}

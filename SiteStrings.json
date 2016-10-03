@@ -1,0 +1,7 @@
+{
+  "NewFeatureRequestForm" : {
+    "username" : "（必填）用户名",
+    "title": "（必填）功能名",
+    "body": "（可选）功能描述，帮助我们更好地理解功能建议"
+  } 
+}
